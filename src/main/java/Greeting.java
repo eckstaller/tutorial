@@ -2,7 +2,7 @@ public class Greeting {
 	private final String greetingRecipient;
 
 	public Greeting(String greetingRecipient) {
-		this.greetingRecipient = greetingRecipient;
+		this.greetingRecipient = "Hello, " + greetingRecipient + "!";
 	}
 
 	/**
